@@ -1,0 +1,26 @@
+{
+    "name": "acme/calc",
+    "description": "Some math thing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidrit Trandafili",
+            "email": "forge405@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Acme\\Calc\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Acme\\Calc\\CalcServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
