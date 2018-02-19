@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\Calc;
+namespace Acme2\Calc;
 
 use App\Http\Controllers\Controller;
 

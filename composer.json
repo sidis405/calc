@@ -1,5 +1,5 @@
 {
-    "name": "acme/calc",
+    "name": "Acme2/calc",
     "description": "Some math thing",
     "type": "library",
     "license": "MIT",
@@ -11,13 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Acme\\Calc\\" : "src"
+            "Acme2\\Calc\\" : "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Acme\\Calc\\CalcServiceProvider"
+                "Acme2\\Calc\\CalcServiceProvider"
             ]
         }
     },

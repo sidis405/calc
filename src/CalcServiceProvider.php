@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\Calc;
+namespace Acme2\Calc;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,7 @@ class CalcServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Acme\Calc\CalcController');
+        $this->app->make('Acme2\Calc\CalcController');
         $this->loadViewsFrom(__DIR__.'/views', 'calc');
     }
 }
