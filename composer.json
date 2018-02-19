@@ -1,5 +1,5 @@
 {
-    "name": "Acme2/calc",
+    "name": "acme2/calc",
     "description": "Some math thing",
     "type": "library",
     "license": "MIT",
